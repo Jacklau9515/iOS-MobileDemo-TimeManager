@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="CategorTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noChoose" translatesAutoresizingMaskIntoConstraints="NO" id="1sA-a3-LH7">
+                        <rect key="frame" x="0.0" y="10" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="YMh-L8-gfL"/>
+                            <constraint firstAttribute="width" constant="20" id="aae-Vg-3FP"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Urgent &amp; Improtant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vej-GL-1M0">
+                        <rect key="frame" x="30" y="10" width="272" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.46196546348846912" green="0.59725243239242842" blue="0.90255859375000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="Vej-GL-1M0" secondAttribute="trailing" constant="10" id="FOK-In-JjA"/>
+                    <constraint firstItem="Vej-GL-1M0" firstAttribute="leading" secondItem="1sA-a3-LH7" secondAttribute="trailing" constant="10" id="HYy-56-K9h"/>
+                    <constraint firstItem="1sA-a3-LH7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="O2v-GG-7CI"/>
+                    <constraint firstItem="1sA-a3-LH7" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="VeH-kx-cLq"/>
+                    <constraint firstItem="Vej-GL-1M0" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="rWI-Na-Lrh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="category_Label" destination="Vej-GL-1M0" id="DQX-XC-dDg"/>
+                <outlet property="isChoose_ImageView" destination="1sA-a3-LH7" id="dbD-GK-z5u"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="noChoose" width="40" height="40"/>
+    </resources>
+</document>
