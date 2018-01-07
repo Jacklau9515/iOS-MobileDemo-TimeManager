@@ -13,7 +13,7 @@ A screen that allows a user to view his or her current tasks. This screen allows
 
 ![AddEventScreen](https://github.com/Jacklau9515/MarkdownPhotos/blob/master/iOS-TimeManager/Add%20Event.JPG)
 
-If the input text box is empty after user clicking **Upload** button, this application will pop up a warning message.
+If user wants to delete an exsiting event after clicking **Delete** button, this application will pop up a warning message.
 
 ![Warning](https://github.com/Jacklau9515/MarkdownPhotos/blob/master/iOS-TimeManager/Warning%20Message.JPG)
 
