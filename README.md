@@ -3,6 +3,7 @@
 A mobile application, called “Time Manager” which aims to help university students in their studies, and hopefully to help them become organized in their lives. “Time Manager” comprises four functional pages: a home page that navigates users; a page that allows users to plan and prioritize academic activities; a page that enables users to view activities and record actions; and a page that embeds the TMQ (Time Management Questionnaire). 
 ### Home Screen
 A main screen providing the name of your application and buttons that link to the other functionality of this application, including **background images**, the user’s **time management score** based on the **TMQ questionnaire**, **upcoming task deadlines**.
+
 ![HomeScreen](https://github.com/Jacklau9515/MarkdownPhotos/blob/master/iOS-TimeManager/Mainmenu.JPG)
 ### Add Event Screen
 A screen that allows a user to view his or her current tasks. This screen allows the user to modify existing tasks (e.g. by marking them as complete or alternatively by allowing completed tasks to be deleted). Additional functionality focus on allowing the tasks to be categorised by due-date.
